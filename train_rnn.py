@@ -6,8 +6,9 @@ import torch
 from torch import nn
 from torch.utils.data import Dataset, DataLoader
 from sklearn.model_selection import GroupShuffleSplit
- 
 import random
+
+# this file is for training a recurrent neural network used in RNN_trade_bot.py that evaluates trade market data to determine expected value
 
 DB_FILE = "trades.db"
 MODEL_PATH = "new_rnn_history_model.pt"
